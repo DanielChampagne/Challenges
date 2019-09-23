@@ -1,13 +1,13 @@
   
 class Image
 
-  def initialize (picture)
-    @picture = picture
+  def initialize (image)
+    @image = image
   end
 
   def output_image
-    @picture.each do |data|
-      puts data.join
+    @image.each do |row|
+      puts row.join
     end
   end
 end
